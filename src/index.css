@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+
+/* If you need to make the navbar even more minimal */
+nav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* For the logo white effect */
+.logo-white {
+  filter: brightness(0) invert(1);
+}
