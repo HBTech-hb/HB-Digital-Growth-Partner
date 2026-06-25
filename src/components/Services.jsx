@@ -51,7 +51,7 @@ const Services = () => {
             Services I Offer
           </h2>
 
-          <p className="text-gray-600 text-lg mt-4 max-w-3xl mx-auto">
+          <p className="text-[var(--text-muted)] text-lg mt-4 max-w-3xl mx-auto">
             Helping businesses grow online through content creation,
             social media management, reel editing, and digital marketing.
           </p>
@@ -63,7 +63,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
+              className="bg-[var(--surface)] p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
             >
               <div className="text-5xl mb-5">
                 {service.icon}
@@ -73,7 +73,7 @@ const Services = () => {
                 {service.title}
               </h3>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-[var(--text-muted)] leading-relaxed">
                 {service.description}
               </p>
             </div>

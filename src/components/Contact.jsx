@@ -81,12 +81,12 @@ Sent via website contact form (HB Digital Growth Partner)
 
           <a
             href="mailto:bansodeharshad098@gmail.com"
-            className="flex items-center gap-2 p-4 border border-gray-300 rounded-xl hover:bg-gray-100 transition"
+            className="flex items-center gap-2 p-4 border border-gray-300 rounded-xl hover:bg-[var(--surface)] transition"
           >
             <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
               <FaEnvelope className="text-blue-600" />
             </div>
-            <p className="hover:bg-gray-100 transition" >Email Me : bansodeharshad098@gmail.com</p>
+            <p className="hover:bg-[var(--surface)] transition" >Email Me : bansodeharshad098@gmail.com</p>
           </a>
 
           <div className="flex items-center gap-2 p-4 border border-gray-300 rounded-xl">

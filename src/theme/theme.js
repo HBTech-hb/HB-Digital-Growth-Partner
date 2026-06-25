@@ -8,11 +8,11 @@ export const theme = {
     secondaryBg: "bg-green-600",
 
     heading: "text-slate-900",
-    paragraph: "text-gray-600",
+    paragraph: "text-[var(--text-muted)]",
 
-    navbarBg: "bg-white",
+    navbarBg: "bg-[var(--surface)]",
 
-    cardBg: "bg-white",
+    cardBg: "bg-[var(--surface)]",
     cardShadow: "shadow-md hover:shadow-xl",
   },
 

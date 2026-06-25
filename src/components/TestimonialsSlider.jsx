@@ -27,13 +27,13 @@ const TestimonialsSlider = () => {
             Client Reviews
           </h2>
 
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+          <p className="text-[var(--text-muted)] mt-4 max-w-2xl mx-auto">
             Feedback from businesses and clients I've worked with.
           </p>
         </div>
 
         {/* Rating Summary */}
-        <div className="bg-white rounded-3xl shadow-md p-8 mb-10 text-center">
+        <div className="bg-[var(--surface)] rounded-3xl shadow-md p-8 mb-10 text-center">
           <h3 className="text-2xl font-bold text-slate-900">
             Excellent
           </h3>
@@ -44,7 +44,7 @@ const TestimonialsSlider = () => {
             ))}
           </div>
 
-          <p className="text-gray-600">
+          <p className="text-[var(--text-muted)]">
             Based on <strong>{reviews.length} Reviews</strong>
           </p>
 
@@ -65,7 +65,7 @@ const TestimonialsSlider = () => {
             return (
               <div
                 key={reviewIndex}
-                className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
+                className="bg-[var(--surface)] p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
               >
                 <div className="flex justify-between items-center mb-4">
 
@@ -89,7 +89,7 @@ const TestimonialsSlider = () => {
 
                 </div>
 
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-[var(--text-muted)] leading-relaxed">
                   "{r.review}"
                 </p>
               </div>

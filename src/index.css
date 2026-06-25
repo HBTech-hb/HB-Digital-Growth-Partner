@@ -1,6 +1,14 @@
 
 @import "tailwindcss";
 
+:root {
+  --primary: #FFB400;      /* Yellow/Gold */
+  --secondary: #0F172A;    /* Dark Navy */
+  --background: #0B1120;   /* Deep Navy */
+  --text: #FFFFFF;
+  --text-muted: #94A3B8;
+}
+
 /* If you need to make the navbar even more minimal */
 nav {
   backdrop-filter: blur(10px);

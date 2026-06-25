@@ -18,33 +18,33 @@ export const projectsData = {
     },
     {
       id: 2,
-      title: "Product Promotion Design",
-      image: Festival2,
+      title: "Product Promotion",
+      image: newoffer,
     },
     {
       id: 3,
-      title: "Instagram Post Design",
+      title: "Brand Promotion",
       image: Design1,
     },
 
       {
       id: 4,
-      title: "Instagram Post Design",
+      title: "Bussines promotion Design",
       image: gym,
     },
        {
       id: 5,
       title: "Instagram Post Design",
-      image: newoffer,
+      image: Festival2,
     },
     {
       id: 6,
-      title: "Instagram Post Design",
+      title: "Marketing Ideas",
       image: startup,
     },
     {
       id: 7,
-      title: "Instagram Post Design",
+      title: "Online presence",
       image: markeeting,
     }
   ],

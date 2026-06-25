@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section
       id="portfolio"
-      className="py-20 px-6 sm:px-10 bg-gray-100"
+      className="py-20 px-6 sm:px-10 bg-[var(--surface)]"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -20,7 +20,7 @@ const Projects = () => {
             My Portfolio
           </h2>
 
-          <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
+          <p className="text-[var(--text-muted)] mt-4 max-w-3xl mx-auto">
             Explore my graphic designs, social media content,
             reel editing projects, and websites I've worked on.
           </p>
@@ -36,7 +36,7 @@ const Projects = () => {
               className={`px-6 py-3 rounded-full font-medium transition ${
                 activeTab === tab
                   ? "bg-blue-600 text-white"
-                  : "bg-white text-gray-700 shadow"
+                  : "bg-[var(--surface)] text-[var(--text-muted)] shadow"
               }`}
             >
               {tab === "graphics" && "Graphics"}
@@ -54,7 +54,7 @@ const Projects = () => {
             {projectsData.graphics.map((item) => (
               <div
                 key={item.id}
-                className="cursor-pointer overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl transition"
+                className="cursor-pointer overflow-hidden rounded-2xl bg-[var(--surface)] shadow-md hover:shadow-xl transition"
                 onClick={() => setSelectedImage(item.image)}
               >
                 <img
@@ -79,7 +79,7 @@ const Projects = () => {
             {projectsData.social.map((item) => (
               <div
                 key={item.id}
-                className="cursor-pointer overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl transition"
+                className="cursor-pointer overflow-hidden rounded-2xl bg-[var(--surface)] shadow-md hover:shadow-xl transition"
                 onClick={() => setSelectedImage(item.image)}
               >
                 <img
@@ -104,7 +104,7 @@ const Projects = () => {
             {projectsData.reels.map((item) => (
               <div
                 key={item.id}
-                className="cursor-pointer rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition"
+                className="cursor-pointer rounded-2xl overflow-hidden bg-[var(--surface)] shadow-md hover:shadow-xl transition"
                 onClick={() => setSelectedVideo(item.video)}
               >
                 <video
@@ -129,7 +129,7 @@ const Projects = () => {
             {projectsData.websites.map((item) => (
               <div
                 key={item.id}
-                className="cursor-pointer overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl transition"
+                className="cursor-pointer overflow-hidden rounded-2xl bg-[var(--surface)] shadow-md hover:shadow-xl transition"
                 onClick={() => setSelectedWebsite(item)}
               >
                 <img
@@ -186,7 +186,7 @@ const Projects = () => {
           onClick={() => setSelectedWebsite(null)}
         >
           <div
-            className="bg-white rounded-2xl overflow-hidden max-w-4xl w-full"
+            className="bg-[var(--surface)] rounded-2xl overflow-hidden max-w-4xl w-full"
             onClick={(e) => e.stopPropagation()}
           >
             <img
@@ -201,7 +201,7 @@ const Projects = () => {
               </h3>
 
               {selectedWebsite.description && (
-                <p className="text-gray-600 mt-3">
+                <p className="text-[var(--text-muted)] mt-3">
                   {selectedWebsite.description}
                 </p>
               )}

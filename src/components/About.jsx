@@ -12,17 +12,17 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 px-6 sm:px-10 bg-gray-100"
+      className="py-20 px-6 sm:px-10 bg-[var(--surface)]"
     >
       <div className="max-w-7xl mx-auto">
 
         {/* SECTION TITLE */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-[var(--text)]">
             Helping Businesses Grow Online
           </h2>
 
-          <p className="text-gray-600 mt-4 max-w-3xl mx-auto text-lg">
+          <p className="text-[var(--text-muted)] mt-4 max-w-3xl mx-auto text-lg">
             I help businesses build a strong online presence through
             social media management, content creation, reel editing,
             and digital marketing strategies that attract more customers.
@@ -32,7 +32,7 @@ const About = () => {
         {/* SERVICES */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
 
-          <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div className="bg-[var(--surface)] p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
             <img
               src={socialMedia}
               alt="Social Media Management"
@@ -43,13 +43,13 @@ const About = () => {
               Social Media Management
             </h3>
 
-            <p className="text-gray-600">
+            <p className="text-[var(--text-muted)]">
               Content planning, scheduling, engagement,
               and account management.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div className="bg-[var(--surface)] p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
             <img
               src={reelEditing}
               alt="Reel Editing"
@@ -60,13 +60,13 @@ const About = () => {
               Reel Editing
             </h3>
 
-            <p className="text-gray-600">
+            <p className="text-[var(--text-muted)]">
               Engaging reels, captions,
               transitions, and short-form videos.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div className="bg-[var(--surface)] p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
             <img
               src={canvaDesign}
               alt="Canva Design"
@@ -77,13 +77,13 @@ const About = () => {
               Canva Design
             </h3>
 
-            <p className="text-gray-600">
+            <p className="text-[var(--text-muted)]">
               Eye-catching social media posts,
               banners, and promotional creatives.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div className="bg-[var(--surface)] p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center">
             <img
               src={contentStrategy}
               alt="Content Strategy"
@@ -94,7 +94,7 @@ const About = () => {
               Content Strategy
             </h3>
 
-            <p className="text-gray-600">
+            <p className="text-[var(--text-muted)]">
               Strategic content planning to
               increase visibility and engagement.
             </p>
@@ -103,25 +103,25 @@ const About = () => {
         </div>
 
         {/* ABOUT CONTENT */}
-        <div className="bg-white p-8 md:p-10 rounded-2xl shadow-md">
+        <div className="bg-[var(--surface)] p-8 md:p-10 rounded-2xl shadow-md">
 
-          <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">
+          <h3 className="text-2xl font-bold mb-6 text-center text-[var(--text)]">
             Why Businesses Work With Me
           </h3>
 
-          <p className="text-gray-700 text-lg leading-relaxed">
+          <p className="text-[var(--text-muted)] text-lg leading-relaxed">
             I work with local businesses, startups, and personal brands
             to create content that attracts attention and builds trust online.
           </p>
 
-          <p className="text-gray-700 text-lg leading-relaxed mt-4">
+          <p className="text-[var(--text-muted)] text-lg leading-relaxed mt-4">
             From managing social media accounts and designing Canva posts
             to editing reels and planning content strategies, I focus on
             helping businesses grow their online presence in practical,
             affordable, and effective ways.
           </p>
 
-          <p className="text-gray-700 text-lg leading-relaxed mt-4">
+          <p className="text-[var(--text-muted)] text-lg leading-relaxed mt-4">
             My goal is simple:
             <span className="font-semibold text-blue-600">
               {" "}help businesses reach more customers, strengthen
@@ -140,7 +140,7 @@ const About = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
 
-            <div className="bg-white p-6 rounded-xl shadow text-center hover:shadow-xl transition">
+            <div className="bg-[var(--surface)] p-6 rounded-xl shadow text-center hover:shadow-xl transition">
               <img
                 src={creativeContent}
                 alt="Creative Content"
@@ -152,7 +152,7 @@ const About = () => {
               </h4>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow text-center hover:shadow-xl transition">
+            <div className="bg-[var(--surface)] p-6 rounded-xl shadow text-center hover:shadow-xl transition">
               <img
                 src={clientSupport}
                 alt="Client Support"
@@ -164,7 +164,7 @@ const About = () => {
               </h4>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow text-center hover:shadow-xl transition">
+            <div className="bg-[var(--surface)] p-6 rounded-xl shadow text-center hover:shadow-xl transition">
               <img
                 src={fastResponse}
                 alt="Fast Response"
@@ -176,7 +176,7 @@ const About = () => {
               </h4>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow text-center hover:shadow-xl transition">
+            <div className="bg-[var(--surface)] p-6 rounded-xl shadow text-center hover:shadow-xl transition">
               <img
                 src={affordablePricing}
                 alt="Affordable Pricing"

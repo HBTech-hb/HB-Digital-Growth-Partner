@@ -50,7 +50,7 @@ const Home = () => {
 
           </h1>
 
-          <p className="text-gray-600 text-lg mt-6 max-w-xl">
+          <p className="text-[var(--text-muted)] text-lg mt-6 max-w-xl">
             I help businesses create content, manage social media,
             edit high-performing reels, and use AI tools to grow faster
             and get more customers online.
@@ -68,7 +68,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/harshadbansode/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-[var(--text-muted)] hover:text-blue-600 transition"
             >
               <FaLinkedin size={28} />
             </a>
@@ -77,7 +77,7 @@ const Home = () => {
               href="https://wa.me/918080224138?text=Hi%20Harshad,%20I%20want%20help%20to%20grow%20my%20business"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 hover:text-green-600 transition"
+              className="text-[var(--text-muted)] hover:text-green-600 transition"
             >
               <FaWhatsapp size={28} />
             </a>

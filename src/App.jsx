@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
+// import ThemeToggle from "./components/ThemeToggle";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+
 import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
@@ -55,7 +57,8 @@ function App() {
   return (
     <div className="font-poppins">
       <Navbar activeSection={activeSection} />
-
+{/* <ThemeToggle /> */}
+     
       <Home />
       <About />
       <Services />
@@ -64,6 +67,7 @@ function App() {
       <TestimonialsSlider />
       <Contact />
       <Footer />
+     
     </div>
   );
 }
